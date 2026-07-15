@@ -41,7 +41,7 @@ lbl_senha = ttk.Label(
 )
 lbl_senha.grid(
     row=1,
-    column=1,
+    column=0,
     padx=10,
     pady=10,
 )

@@ -22,7 +22,7 @@ lbl_login.grid(
     row=0,
     column=0,
     padx=10,
-    pady=10
+    pady=10,
 )
 edt_login = ttk.Entry(
     janela,
@@ -60,7 +60,7 @@ edt_senha.grid(
 # Criar um botão de login
 lbl_button = ttk.Button(
     janela,
-    text="Entrar:",
+    text="Entrar",
     command=login
 )
 lbl_button.grid(

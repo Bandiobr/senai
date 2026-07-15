@@ -10,7 +10,7 @@ def login():
     senha = edt_senha.get()
 
     if usuario == "Lucas" and  senha == "123":
-        messagebox("Login realizado com sucesso!")
+        messagebox.showinfo("Login com sucesso","Login realizado com sucesso!")
     else:
         messagebox.showerror("Erro", "Usuário ou senha inválidos!")
 
@@ -56,4 +56,19 @@ edt_senha.grid(
     padx=10,
     pady=10,
 )
+
+# Criar um botão de login
+lbl_button = ttk.Button(
+    janela,
+    text="Entrar:",
+    command=login
+)
+lbl_button.grid(
+    row=2,
+    column=0,
+    columnspan=2,
+    padx=10,
+    pady=10,
+)
+
 janela.mainloop()

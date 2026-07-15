@@ -40,8 +40,8 @@ lbl_senha = ttk.Label(
     text="Senha:"
 )
 lbl_senha.grid(
-    row=0,
-    column=1,
+    row=1,
+    column=0,
     padx=10,
     pady=10,
 )
